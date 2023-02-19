@@ -2,8 +2,9 @@
   "name": "trex",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "./dist/bin/index.js",
   "scripts": {
+    "build": "npm unlink trex && tsc -p . && npm link",
     "start": "ts-node ./bin/index.ts new react",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

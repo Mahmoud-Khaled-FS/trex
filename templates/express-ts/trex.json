@@ -1,0 +1,13 @@
+{
+  "dependencies": ["bcryptjs", "cors", "express", "helmet", "winston", "zod"],
+  "devDependencies": [
+    "@types/bcryptjs",
+    "@types/cors",
+    "@types/express",
+    "@types/node",
+    "dotenv",
+    "nodemon",
+    "ts-node",
+    "typescript"
+  ]
+}
