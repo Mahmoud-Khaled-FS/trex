@@ -22,7 +22,7 @@
     "experimentalDecorators": true,
     "resolveJsonModule": true
   },
-  "exclude": ["node_modules"],
+  "exclude": ["node_modules", "templates"],
   "ts-node": {
     "files": true
   }
